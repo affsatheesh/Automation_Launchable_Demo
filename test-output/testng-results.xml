@@ -1,49 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+<testng-results ignored="6" total="17" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-26T20:51:33 IST" name="Suite" finished-at="2023-08-26T20:51:34 IST" duration-ms="1248">
+  <suite started-at="2023-09-23T12:05:19 IST" name="Suite" finished-at="2023-09-23T12:05:27 IST" duration-ms="7511">
     <groups>
     </groups>
-    <test started-at="2023-08-26T20:51:33 IST" name="Test" finished-at="2023-08-26T20:51:34 IST" duration-ms="1248">
-      <class name="com.testcases.Homepage_Test">
-        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Homepage_Test@f0da945]" started-at="2023-08-26T20:51:33 IST" name="getdrivers" finished-at="2023-08-26T20:51:33 IST" duration-ms="0" status="PASS">
+    <test started-at="2023-09-23T12:05:19 IST" name="Test" finished-at="2023-09-23T12:05:27 IST" duration-ms="7511">
+      <class name="com.testcases.Dashboard">
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Dashboard@32502377]" started-at="2023-09-23T12:05:21 IST" name="getdrivers" finished-at="2023-09-23T12:05:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdrivers -->
-        <test-method signature="to_Validate_Homepage()[pri:0, instance:com.testcases.Homepage_Test@f0da945]" started-at="2023-08-26T20:51:33 IST" name="to_Validate_Homepage" finished-at="2023-08-26T20:51:34 IST" duration-ms="603" status="PASS">
+        <test-method signature="to_Validate_Dashboard()[pri:0, instance:com.testcases.Dashboard@32502377]" started-at="2023-09-23T12:05:21 IST" name="to_Validate_Dashboard" finished-at="2023-09-23T12:05:21 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- to_Validate_Homepage -->
-      </class> <!-- com.testcases.Homepage_Test -->
-      <class name="com.testcases.Login_Test">
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.testcases.Login_Test@434a63ab]" started-at="2023-08-26T20:51:27 IST" name="launchbrowser" finished-at="2023-08-26T20:51:33 IST" duration-ms="5937" status="PASS">
+        </test-method> <!-- to_Validate_Dashboard -->
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Dashboard@32502377]" started-at="2023-09-23T12:05:21 IST" name="getdrivers" finished-at="2023-09-23T12:05:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdrivers -->
+        <test-method signature="to_Validate_Dashboard_UserCount()[pri:0, instance:com.testcases.Dashboard@32502377]" started-at="2023-09-23T12:05:21 IST" name="to_Validate_Dashboard_UserCount" finished-at="2023-09-23T12:05:22 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Validate_Dashboard_UserCount -->
+      </class> <!-- com.testcases.Dashboard -->
+      <class name="com.testcases.Reports">
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Reports@66f57048]" started-at="2023-09-23T12:05:22 IST" name="getdrivers" finished-at="2023-09-23T12:05:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdrivers -->
+        <test-method signature="to_Validate_Reports()[pri:0, instance:com.testcases.Reports@66f57048]" started-at="2023-09-23T12:05:22 IST" name="to_Validate_Reports" finished-at="2023-09-23T12:05:22 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Validate_Reports -->
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Reports@66f57048]" started-at="2023-09-23T12:05:22 IST" name="getdrivers" finished-at="2023-09-23T12:05:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdrivers -->
+        <test-method signature="to_Validate_User_Reports()[pri:1, instance:com.testcases.Reports@66f57048]" started-at="2023-09-23T12:05:22 IST" name="to_Validate_User_Reports" finished-at="2023-09-23T12:05:23 IST" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Validate_User_Reports -->
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Reports@66f57048]" started-at="2023-09-23T12:05:23 IST" name="getdrivers" finished-at="2023-09-23T12:05:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdrivers -->
+        <test-method signature="to_Validate_Sales_Reports()[pri:2, instance:com.testcases.Reports@66f57048]" started-at="2023-09-23T12:05:23 IST" name="to_Validate_Sales_Reports" finished-at="2023-09-23T12:05:24 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Validate_Sales_Reports -->
+      </class> <!-- com.testcases.Reports -->
+      <class name="com.testcases.Admin_Interface">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.testcases.Admin_Interface@ffaa6af]" started-at="2023-09-23T12:05:14 IST" name="launchbrowser" finished-at="2023-09-23T12:05:19 IST" duration-ms="5237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Login_Test@434a63ab]" started-at="2023-08-26T20:51:33 IST" name="getdrivers" finished-at="2023-08-26T20:51:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Admin_Interface@ffaa6af]" started-at="2023-09-23T12:05:19 IST" name="getdrivers" finished-at="2023-09-23T12:05:19 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdrivers -->
-        <test-method signature="to_Validate_Login()[pri:0, instance:com.testcases.Login_Test@434a63ab]" started-at="2023-08-26T20:51:33 IST" name="to_Validate_Login" finished-at="2023-08-26T20:51:33 IST" duration-ms="31" status="PASS">
+        <test-method signature="to_Validate_Admin_Interface()[pri:0, instance:com.testcases.Admin_Interface@ffaa6af]" started-at="2023-09-23T12:05:19 IST" name="to_Validate_Admin_Interface" finished-at="2023-09-23T12:05:19 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- to_Validate_Login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.Login_Test@434a63ab]" started-at="2023-08-26T20:51:35 IST" name="teardown" finished-at="2023-08-26T20:51:35 IST" duration-ms="118" status="PASS">
+        </test-method> <!-- to_Validate_Admin_Interface -->
+        <test-method signature="to_Validate_Admin_Interface_SalesDetails()[pri:0, instance:com.testcases.Admin_Interface@ffaa6af]" started-at="2023-09-23T12:05:19 IST" name="to_Validate_Admin_Interface_SalesDetails" finished-at="2023-09-23T12:05:20 IST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Validate_Admin_Interface_SalesDetails -->
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Admin_Interface@ffaa6af]" started-at="2023-09-23T12:05:19 IST" name="getdrivers" finished-at="2023-09-23T12:05:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdrivers -->
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Admin_Interface@ffaa6af]" started-at="2023-09-23T12:05:20 IST" name="getdrivers" finished-at="2023-09-23T12:05:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdrivers -->
+        <test-method signature="to_Validate_Admin_Interface_UserDetails()[pri:0, instance:com.testcases.Admin_Interface@ffaa6af]" started-at="2023-09-23T12:05:20 IST" name="to_Validate_Admin_Interface_UserDetails" finished-at="2023-09-23T12:05:21 IST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Validate_Admin_Interface_UserDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.Admin_Interface@ffaa6af]" started-at="2023-09-23T12:05:27 IST" name="teardown" finished-at="2023-09-23T12:05:27 IST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.testcases.Login_Test -->
-      <class name="com.testcases.Logout_Test">
-        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.Logout_Test@4803b726]" started-at="2023-08-26T20:51:34 IST" name="getdrivers" finished-at="2023-08-26T20:51:34 IST" duration-ms="0" status="PASS">
+      </class> <!-- com.testcases.Admin_Interface -->
+      <class name="com.testcases.User_Interface">
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.User_Interface@550dbc7a]" started-at="2023-09-23T12:05:24 IST" name="getdrivers" finished-at="2023-09-23T12:05:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdrivers -->
-        <test-method signature="to_Validate_LogoutPage()[pri:0, instance:com.testcases.Logout_Test@4803b726]" started-at="2023-08-26T20:51:34 IST" name="to_Validate_LogoutPage" finished-at="2023-08-26T20:51:34 IST" duration-ms="579" status="PASS">
+        <test-method signature="to_Validate_User_Interface()[pri:0, instance:com.testcases.User_Interface@550dbc7a]" started-at="2023-09-23T12:05:24 IST" name="to_Validate_User_Interface" finished-at="2023-09-23T12:05:25 IST" duration-ms="936" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- to_Validate_LogoutPage -->
-      </class> <!-- com.testcases.Logout_Test -->
+        </test-method> <!-- to_Validate_User_Interface -->
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.User_Interface@550dbc7a]" started-at="2023-09-23T12:05:25 IST" name="getdrivers" finished-at="2023-09-23T12:05:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdrivers -->
+        <test-method signature="to_Validate_Login()[pri:1, instance:com.testcases.User_Interface@550dbc7a]" started-at="2023-09-23T12:05:25 IST" name="to_Validate_Login" finished-at="2023-09-23T12:05:26 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Validate_Login -->
+        <test-method is-config="true" signature="getdrivers()[pri:0, instance:com.testcases.User_Interface@550dbc7a]" started-at="2023-09-23T12:05:26 IST" name="getdrivers" finished-at="2023-09-23T12:05:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdrivers -->
+        <test-method signature="to_Validate_Logout()[pri:2, instance:com.testcases.User_Interface@550dbc7a]" started-at="2023-09-23T12:05:26 IST" name="to_Validate_Logout" finished-at="2023-09-23T12:05:27 IST" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Validate_Logout -->
+      </class> <!-- com.testcases.User_Interface -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

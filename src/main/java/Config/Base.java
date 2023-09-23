@@ -61,7 +61,8 @@ public class Base {
 	@AfterSuite
 	public void teardown() throws IOException {
 		    driver.close();
-			//Runtime.getRuntime().exec("taskkill /F /IM ChromeDriver.exe");
+			Runtime.getRuntime().exec("taskkill /F /IM ChromeDriver.exe");
+			 driver.quit();
 	}
 
 	public static String takeScreenshotAtEndOfTest(String testname) throws IOException {

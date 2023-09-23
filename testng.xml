@@ -3,9 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.testcases.Login_Test"/>
-      <class name="com.testcases.Homepage_Test"/>
-      <class name="com.testcases.Logout_Test"/>
+      <class name="com.testcases.Admin_Interface"/>
+      <class name="com.testcases.Dashboard"/>
+      <class name="com.testcases.Reports"/>
+       <class name="com.testcases.User_Interface"/>
     </classes>
   </test> 
 </suite>
