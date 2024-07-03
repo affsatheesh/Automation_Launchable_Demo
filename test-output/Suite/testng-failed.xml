@@ -13,15 +13,6 @@
           <include name="to_Validate_Admin_Interface"/>
         </methods>
       </class> <!-- com.testcases.Admin_Interface -->
-      <class name="com.testcases.Dashboard">
-        <methods>
-          <include name="to_Validate_Dashboard"/>
-          <include name="to_Validate_Dashboard_UserCount"/>
-          <include name="launchbrowser"/>
-          <include name="teardown"/>
-          <include name="getdrivers"/>
-        </methods>
-      </class> <!-- com.testcases.Dashboard -->
       <class name="com.testcases.Reports">
         <methods>
           <include name="to_Validate_Sales_Reports"/>
@@ -32,6 +23,15 @@
           <include name="to_Validate_User_Reports"/>
         </methods>
       </class> <!-- com.testcases.Reports -->
+      <class name="com.testcases.Dashboard">
+        <methods>
+          <include name="to_Validate_Dashboard"/>
+          <include name="to_Validate_Dashboard_UserCount"/>
+          <include name="launchbrowser"/>
+          <include name="teardown"/>
+          <include name="getdrivers"/>
+        </methods>
+      </class> <!-- com.testcases.Dashboard -->
       <class name="com.testcases.User_Interface">
         <methods>
           <include name="getdrivers"/>
