@@ -42,7 +42,7 @@ public class Base {
 		if (browser.equalsIgnoreCase("Chrome")) {
 			
 			ChromeOptions op = new ChromeOptions();
-			op.setBrowserVersion("116");
+			//op.setBrowserVersion("116");
 			driver = new ChromeDriver(op);
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 			driver.manage().deleteAllCookies();

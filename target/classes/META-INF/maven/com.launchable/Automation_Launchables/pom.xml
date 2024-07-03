@@ -1,16 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.automationdemo</groupId>
-  <artifactId>Automation_Launchable</artifactId>
+  <groupId>com.launchable</groupId>
+  <artifactId>Automation_Launchables</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  	<build>
-		<resources>
-			<resource>
-				<directory>src//main//resources</directory>
-				<filtering>true</filtering>
-			</resource>
-		</resources>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -53,6 +46,12 @@
 			<version>7.7.1</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- Extents Reporting Jar-->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.8</version>
+		</dependency>
 		<!-- In taking screenshot we are using Fileutile there there this jar is using -->
 		<dependency>
 			<groupId>commons-io</groupId>
@@ -72,9 +71,17 @@
 			<version>2.0.0-alpha1</version>
 			<scope>test</scope>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.16</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.16</version>
+		</dependency>
 	</dependencies>
-  
-  
-  
 </project>
